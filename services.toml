@@ -1,0 +1,44 @@
+# Pomegranate Ecosystem — Service Registry
+# Lemon reads this file to know which services to manage.
+
+[services.mangosteen]
+name = "Mangosteen"
+dir = "../mangosteen"
+port = 4000
+command = "make dev"
+emoji = "🥭"
+
+[services.salak]
+name = "Salak"
+dir = "../salak"
+port = 8000
+command = "make dev"
+emoji = "🐍"
+
+[services.orange]
+name = "Orange"
+dir = "../orange"
+port = 8001
+command = "make dev"
+emoji = "🍊"
+
+[services.lime]
+name = "Lime"
+dir = "../lime"
+port = 8003
+command = "make dev"
+emoji = "🍋"
+
+[services.granate]
+name = "Granate"
+dir = "../granate"
+port = 8002
+command = "cargo run"
+emoji = "🍎"
+
+[services.pome]
+name = "Pome"
+dir = "../pome"
+port = 4021
+command = "bun run dev"
+emoji = "💻"

@@ -1,0 +1,10 @@
+[project]
+name = "lemon"
+version = "0.1.0"
+description = "Pomegranate Ecosystem Service Orchestrator — one command to run them all"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+lemon = "lemon.main:main"
