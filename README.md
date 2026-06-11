@@ -118,7 +118,9 @@ in `/tmp/lemon-pids/` and logs in `/tmp/lemon-pids/*.log`.
 - Python >= 3.12
 - [uv](https://github.com/astral-sh/uv)
 - All service repos cloned as siblings (e.g., `~/Sandbox/salak`, `~/Sandbox/orange`, etc.)
-- Docker & Docker Compose (for Postgres infra)
+- **jambu** infra: PostgreSQL must be running on port 5433.
+  See `../jambu/README.md` — `./scripts/dev/start.sh` or native install.
+  Lemon does NOT manage infrastructure; it only orchestrates Rumman services.
 
 ## License
 

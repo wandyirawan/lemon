@@ -42,3 +42,10 @@ dir = "../pome"
 port = 4021
 command = "bun run dev"
 emoji = "💻"
+
+[services.duku]
+name = "Duku"
+dir = "../duku"
+port = 8004
+command = "bun run dev"
+emoji = "🔍"
